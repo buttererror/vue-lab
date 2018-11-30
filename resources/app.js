@@ -1,8 +1,8 @@
 import Vue from 'vue';
-import Helper from './components/Helper';
+import AppRoot from './components/AppRoot';
 
 const app = new Vue({
   el: "#app",
-  components: {Helper}
+  components: {'app-root': AppRoot}
 
 });
