@@ -1,12 +1,12 @@
 <template>
-     <Parent></Parent>
+     <computing></computing>
 </template>
 
 <script>
-   import Parent from "./slots/Parent";
+   import computing from "./computing";
    export default {
-      name: "App",
-     components: {Parent}
+      name: "AppRoot",
+     components: {computing}
    }
 </script>
 
