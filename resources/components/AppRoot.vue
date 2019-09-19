@@ -1,12 +1,12 @@
 <template>
-     <computing></computing>
+     <bootstrap-vue-table></bootstrap-vue-table>
 </template>
 
 <script>
-   import computing from "./computing";
+   import BootstrapVueTable from "./BootstrapVueTable";
    export default {
       name: "AppRoot",
-     components: {computing}
+     components: {BootstrapVueTable}
    }
 </script>
 
